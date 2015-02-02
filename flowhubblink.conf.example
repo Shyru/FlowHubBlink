@@ -1,0 +1,19 @@
+[blink]
+; The id of your blink-device can be found out by visiting http://localhost:8934/blink1/id after the API-Server of blinkControl has been enabled.
+id=
+
+[flowdock]
+; The LED that you want to show the unread notifications of flowdock. (May be A or B)
+led=A
+; The auth-token for your flowdock api access. You can find this out by visiting https://flowdock.com/account/tokens.
+; Use the token labeled "Personal API token"
+auth_token=
+
+[github]
+; The LED that you want to show the assigned pull-requests of GitHub. (May be A or B)
+led=B
+; Your GitHub username
+username=
+; Your GitHub password
+password=
+
